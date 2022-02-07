@@ -1,0 +1,1 @@
+declare export function importGot(): Promise<typeof import('got')>;

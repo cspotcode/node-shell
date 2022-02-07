@@ -1,0 +1,11 @@
+{
+    "extends": "ts-node/node14/tsconfig.json",
+    "ts-node": {
+        "swc": true,
+        "skipIgnore": true,
+    },
+    "compilerOptions": {
+        "moduleResolution": "node",
+        "esModuleInterop": true
+    }
+}

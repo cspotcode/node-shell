@@ -1,0 +1,15 @@
+{
+    "name": "shell-scripter",
+    "version": "0.0.1",
+    "main": "./index",
+    "dependencies": {
+        "@swc/core": "*",
+        "clipanion": "*",
+        "esbuild": "*",
+        "got": "*",
+        "ts-node": "*",
+        "typanion": "*",
+        "typescript": "*",
+        "zx": "*"
+    }
+}
