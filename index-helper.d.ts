@@ -1,1 +1,1 @@
-declare export function importGot(): Promise<typeof import('got')>;
+export declare function importGot(): Promise<typeof import('got')>;
