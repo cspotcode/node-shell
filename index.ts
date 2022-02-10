@@ -4,7 +4,7 @@ export * as clipanion from 'clipanion';
 export * as zx from 'zx';
 export {Command, Usage, Option} from 'clipanion';
 export const DefaultPath = Command.Default;
-export {$, cd, glob, globby, nothrow, question, sleep} from 'zx';
+export {$, cd, glob, globby, nothrow, question, sleep} from '@cspotcode/zx';
 export * as t from 'typanion';
 import { importGot } from './index-helper';
 

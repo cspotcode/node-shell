@@ -10,6 +10,6 @@
         "ts-node": "*",
         "typanion": "*",
         "typescript": "*",
-        "zx": "*"
+        "@cspotcode/zx": "*"
     }
 }
