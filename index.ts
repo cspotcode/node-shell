@@ -1,8 +1,10 @@
 import { BaseContext, Builtins, Cli, Command, CommandClass, Usage } from 'clipanion';
+import * as _ from 'lodash';
+export {_};
 
 export * as clipanion from 'clipanion';
 export * as zx from '@cspotcode/zx';
-export {Command, Usage, Option} from 'clipanion';
+export {Command, type Usage, Option} from 'clipanion';
 export const DefaultPath = Command.Default;
 export {$, cd, glob, globby, nothrow, question, sleep} from '@cspotcode/zx';
 export * as t from 'typanion';

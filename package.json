@@ -3,13 +3,15 @@
     "version": "0.0.1",
     "main": "./index",
     "dependencies": {
+        "@cspotcode/zx": "*",
         "@swc/core": "*",
+        "@types/lodash": "*",
         "clipanion": "*",
         "esbuild": "*",
         "got": "*",
+        "lodash": "*",
         "ts-node": "*",
         "typanion": "*",
-        "typescript": "*",
-        "@cspotcode/zx": "*"
+        "typescript": "*"
     }
 }
